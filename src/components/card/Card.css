@@ -1,0 +1,23 @@
+#cardSection{
+    display: flex;
+    background-color: #3B0D11;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+#cardSection div{
+    font-size: 18px;
+    padding: 7rem 8rem;
+    border-radius: 50px;
+}
+#cardSection div:hover{
+    cursor: pointer;
+}
+.card1{
+    background-color: #0A2E36;
+    color: #CDF7F6;
+}
+.card2{
+    background-color: #CDF7F6;
+    color: black;
+
+}

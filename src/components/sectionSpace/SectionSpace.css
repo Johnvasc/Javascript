@@ -1,0 +1,8 @@
+.sectionSpace{
+    background-color: #0A2E36;
+    color: white;
+    font-family: 'Inknut Antiqua' 'Comic Sans' 'Georgia';
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
