@@ -16,6 +16,7 @@
     transition: linear;
     transition-duration: .2s;
     opacity: 1;
+    cursor: pointer;
 }
 
 #bookSection img{
