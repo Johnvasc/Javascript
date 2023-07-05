@@ -1,0 +1,11 @@
+#warningPage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E1E;
+    color: white;
+}
+#warningPage p{
+    margin-right: 100px;
+}

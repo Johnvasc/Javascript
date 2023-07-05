@@ -3,6 +3,7 @@ nav{
     padding: 1.2rem 3rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav input{
@@ -20,4 +21,10 @@ nav img{
     padding: .2rem;
     border-radius: 360px;
     border: solid 1px blue;
+}
+nav img:hover{
+    cursor: pointer;
+}
+.navText{
+    color: white;
 }

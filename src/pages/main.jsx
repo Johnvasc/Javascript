@@ -2,6 +2,7 @@ import Navbar from "../components/navbar/Navbar"
 import SectionSpace from "../components/sectionSpace/SectionSpace"
 import Book from "../components/book/Book"
 import Card from "../components/card/Card"
+import PlusButton from "../components/plusButton/PlusButton"
 
 let cover1 = 'https://m.media-amazon.com/images/I/81IckFDzAKL._AC_UF1000,1000_QL80_.jpg'
 let cover2 = 'https://m.media-amazon.com/images/I/81PHloIwKnL._AC_UF1000,1000_QL80_.jpg'
@@ -12,6 +13,7 @@ let cover6 = 'https://m.media-amazon.com/images/I/51Lo4D0z3IS._AC_UF1000,1000_QL
 function main(){
     return(
         <main>
+            <PlusButton></PlusButton>
             <Navbar></Navbar>
             <SectionSpace title = 'Confira as novidades gratuitas'></SectionSpace>
             <Book img1 = {cover1} img2 = {cover2} img3 = {cover3} title1='naruto 67' title2='Relíquias da morte' title3 = 'Jogos Vorazes' id1={1} id2={2} id3={3}></Book> 

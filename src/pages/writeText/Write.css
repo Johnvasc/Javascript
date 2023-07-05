@@ -1,0 +1,24 @@
+#bookTitle{
+    background-color: transparent;
+    font-size: 24px;
+    outline: 0px;
+    border: none;
+    border-bottom: solid 1px gray;
+    margin: 2rem 0 2rem 5rem ;
+    padding-right: 5rem;
+    width: 70%;
+}
+#storyArea{
+    display: flex;
+    justify-content: center;
+}
+#bookContent{
+    margin-top: 3rem;
+    text-indent: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    resize: none;
+    width: 50vw;
+    outline: none;
+    border: none;
+}
