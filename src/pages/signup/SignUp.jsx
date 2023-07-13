@@ -13,8 +13,15 @@ function SignUp(){
           },
           body: JSON.stringify(data)
         }
-        const res = await fetch('/newAccount', options)
-        if(res.status===201) window.location.href = '/accountSucess'
+        try{
+            const response = await fetch('http://localhost:8080/newAccount', options)
+            const data = await response.json();
+            console.log(data.msg)
+            if(response.status===200) window.location.href = '/accountSucess'
+        }catch(error){
+            console.error('Erro:', error);
+        }
+
     }
     return(
         <main id="mainSignUp">
@@ -24,6 +31,7 @@ function SignUp(){
                     <input type="email" name="email" placeholder="Email@mail.com" />
                     <input type="password" name="password" placeholder="Senha"/>
                     <Button name='Criar conta!' func={Signup}></Button>
+                    <a href="/login" className='login'>Tem uma conta? Faça login!</a>
                 </form>
             </div>
         </main>
